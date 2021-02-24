@@ -1,0 +1,22 @@
+/*COMMON*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.debug .container{
+    height: 200px;
+    background-color: coral;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
