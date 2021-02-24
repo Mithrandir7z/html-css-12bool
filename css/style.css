@@ -15,7 +15,7 @@
     margin: 0 auto;
 }
 
-.container::after {
+.clearfix::after {
     content: "";
     clear: both;
     display: table;
