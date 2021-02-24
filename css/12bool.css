@@ -5,7 +5,7 @@
     /*test*/
     height: 100%;
     background-color: rgb(189, 136, 117);
-    border: 1px solid red;
+    border: 1px solid black;
     float: left;
     position: relative;
 }
@@ -20,8 +20,12 @@
 .debug .container > [class*="col-"] .container > [class*="col-"] {
 	background-color: coral;
 	height: 100%;
+    padding: 20px;
 }
 
+.debug .container > [class*="col-"] > .container {
+    padding: 7px;
+}
 
 .col-1 {
     width: calc( ( 100% / 12 ) * 1 );
