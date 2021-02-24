@@ -1,6 +1,6 @@
 
 
-.debug [class*="col-"] {
+.debug .container [class*="col-"] {
     float: left;
     /*test*/
     height: 100%;
@@ -10,7 +10,13 @@
     position: relative;
 }
 
-.debug [class*="col-"] span {
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.debug .container [class*="col-"] span {
     position: absolute;
     top: 50%;
     left: 50%;
