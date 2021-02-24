@@ -17,6 +17,16 @@
     transform: translate(-50%, -50%);
 }
 
+.debug .container > [class*="col-"] .container > [class*="col-"] {
+	background-color: coral;
+	height: 100%;
+}
+
+.debug .container > [class*="col-"] .container > [class*="col-"] {
+	background-color: coral;
+	height: 100%;
+}
+
 
 .col-1 {
     width: calc( ( 100% / 12 ) * 1 );
