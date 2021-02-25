@@ -5,12 +5,4 @@
     box-sizing: border-box;
 }
 
-.debug .container{
-    height: 200px;
-    background-color: rgb(189, 136, 117);
-}
 
-.container {
-    max-width: 1170px;
-    margin: 0 auto;
-}
